@@ -44,7 +44,7 @@ const Home = () => {
             reloadLista();
         }
 
-        // Remover da lista splice
+        // Remover da lista
         lista.splice(targetIndex, 1);
         console.log(lista.splice(targetIndex-1, 1));
         setLista([...lista]);
