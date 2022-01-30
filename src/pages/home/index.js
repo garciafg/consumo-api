@@ -46,7 +46,6 @@ const Home = () => {
 
         // Remover da lista
         lista.splice(targetIndex, 1);
-        console.log(lista.splice(targetIndex-1, 1));
         setLista([...lista]);
         // Se lista vazia, recarregar a lista
         if (lista.length === 0) {
